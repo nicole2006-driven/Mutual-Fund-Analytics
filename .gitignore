@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+
+# Internship datasets (private)
+data/raw/*.csv
+
+# Generated data (keep private until reviewed)
+data/processed/*.csv
+reports/*.csv
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
